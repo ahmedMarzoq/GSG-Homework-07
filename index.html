@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>API EXAMPLE</title>
+</head>
+<body>
+    <form id="search_form" class="col s12">
+                <label class="label" for="search">Anime Name</label>
+                <input placeholder="Hunter X Hunter" name="search" id="search" type="text" required>
+                <input id="search__btn" type="submit" value="submit">
+    </form>
+    <section id="search__results"></section>
+
+    <template id="results__template">
+        <div class="results">
+        <img src="" alt="" class="search__img">
+        <h4 class="search__title"></h4>
+        <a class="search__url" href=""  target="_blank">more...</a>
+        </div>
+    </template>
+    <script src="js/script.js"></script>
+</body>
+</html>
